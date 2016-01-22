@@ -1,0 +1,29 @@
+private TimeCount time;
+time = new TimeCount(60000, 1000);// 构造CountDownTimer对象
+time.start();
+
+
+	/**
+	 * 匿名内部类用于点击按钮进行倒计时
+	 * 
+	 * @author Administrator
+	 *
+	 */
+
+	class TimeCount extends CountDownTimer {
+		public TimeCount(long millisInFuture, long countDownInterval) {
+			super(millisInFuture, countDownInterval);// 参数依次为总时长,和计时的时间间隔
+		}
+
+		@Override
+		public void onFinish() {// 计时器完毕时触发
+			register_check_button.setText("验证码");
+			register_check_button.setClickable(true);
+		}
+
+		@Override
+		public void onTick(long millisUntilFinished) {// 计时过程中显示
+			register_check_button.setClickable(false);
+			register_check_button.setText(millisUntilFinished / 1000 + "秒");
+		}
+	}

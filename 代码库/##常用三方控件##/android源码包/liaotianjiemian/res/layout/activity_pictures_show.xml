@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+      <RelativeLayout 
+        android:id="@+id/rl_layout"
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/activity_main_tab_title_height"
+		android:background="@color/black_top"
+		android:layout_alignParentTop="true"
+		android:gravity="center_vertical"  > 
+  			<ImageButton
+	            android:id="@+id/show_image_btn_back"
+	            android:layout_width="@dimen/activity_btn_height_login_and_register"
+	            android:layout_height="fill_parent"
+	            android:layout_centerVertical="true"
+	            android:background="@drawable/btn_click_goback"
+	            android:src="@drawable/goback_left"
+	            android:onClick="btnClick"
+		    /> 
+		    <TextView 
+		        android:id="@+id/picture_count"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerInParent="true"
+	            android:layout_centerVertical="true"
+	            android:gravity="center"
+		        android:textSize="25sp"
+		        android:text="1/4"
+		        android:textColor="@color/white"/>
+			
+		</RelativeLayout>
+		 <RelativeLayout
+         android:id="@+id/rl_layout_bottom"
+         android:layout_width="fill_parent"
+         android:layout_height="@dimen/activity_main_tab_title_height"
+         android:background="@color/black_top"
+         android:layout_alignParentBottom="true"
+         android:gravity="center_vertical" >
+        <Button 
+            android:id="@+id/btn_send_show_picture"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_click1"
+      		android:textColor="@color/login_btn_text_color"
+       		android:onClick="btnClick"
+            android:text="发送"/>
+
+         
+     </RelativeLayout>
+		<RelativeLayout 
+  			android:layout_width="fill_parent"
+  			android:layout_height="@dimen/activity_main_tab_title_height"
+  			android:background="@color/black_top"
+  			android:layout_below="@id/rl_layout"
+  			android:layout_above="@id/rl_layout_bottom"
+  			android:gravity="center_vertical"  > 
+		      <Gallery android:id="@+id/gly_picture"
+		         android:layout_width="fill_parent"
+		         android:layout_height="fill_parent"
+		         android:background="@color/grey"/>
+
+     </RelativeLayout>
+   
+</RelativeLayout>

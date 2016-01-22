@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="libs">
+    <archive path="D:/WorkStdio/sound/encoderTest/libs/voice_withNoise.jar" />
+  </library>
+  <library name="eclips">
+    <archive path="D:/WorkStdio/java/eclips/content.jar" />
+    <archive path="D:/WorkStdio/java/eclips/ecj-3.8.jar" />
+    <archive path="D:/WorkStdio/java/eclips/artifacts.jar" />
+    <archive path="D:/WorkStdio/java/eclips/org.eclipse.jdt-3.8.zip" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.junit4_4.8.1.v20120523-1257.jar" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.eclipse.jdt_3.8.0.v201206081200.jar" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.junit_3.8.2.v3_8_2_v20100427-1100.jar" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.hamcrest.core_1.1.0.v20090501071000.jar" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.junit_4.10.0.v4_10_0_v20120426-0900.jar" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.eclipse.ant.ui_3.5.300.v20120523-1742.jar" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.eclipse.jdt.core_3.8.1.v20120531-0637.jar" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.eclipse.jdt.debug_3.7.100.v20120529-1702.jar" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.eclipse.jdt.junit_3.7.100.v20120523-1543.jar" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.eclipse.jdt.apt.ui_3.3.300.v20120522-1651.jar" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.eclipse.jdt.annotation_1.0.0.v20120522-1651.jar" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.eclipse.jdt.apt.core_3.3.500.v20120522-1651.jar" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.eclipse.jdt.debug.ui_3.6.100.v20120530-1425.jar" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.eclipse.jdt.doc.user_3.8.0.v20120606-134218.jar" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.eclipse.jdt.launching_3.6.100.v20120523-1953.jar" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.eclipse.jdt.junit.core_3.7.100.v20120523-1257.jar" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.eclipse.ant.launching_1.0.200.v20120530-120908.jar" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.eclipse.jdt.compiler.apt_1.0.500.v20120522-1651.jar" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.eclipse.jdt.compiler.tool_1.0.101.v20120522-1651.jar" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.eclipse.jdt.junit.runtime_3.4.300.v20120523-1257.jar" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.eclipse.jdt.junit4.runtime_1.1.200.v20120523-1257.jar" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.eclipse.jdt.core.manipulation_1.5.0.v20120523-1543.jar" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.eclipse.jdt.launching.macosx_3.2.100.v20120523-1953.jar" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.eclipse.jdt.apt.pluggable.core_1.0.400.v20120522-1651.jar" />
+    <archive path="D:/WorkStdio/java/eclips/plugins/org.eclipse.jdt.launching.ui.macosx_1.0.100.v20120523-1953.jar" />
+    <archive path="D:/WorkStdio/java/eclips/features" />
+  </library>
+  <library name="jmf">
+    <archive path="D:/WorkStdio/java/JMF/jmf-2_1_1e-alljava/JMF-2.1.1e/lib/jmf.jar" />
+    <archive path="D:/WorkStdio/java/JMF/jmf-2_1_1e-alljava/JMF-2.1.1e/lib/customizer.jar" />
+    <archive path="D:/WorkStdio/java/JMF/jmf-2_1_1e-alljava/JMF-2.1.1e/lib/mediaplayer.jar" />
+    <archive path="D:/WorkStdio/java/JMF/jmf-2_1_1e-alljava/JMF-2.1.1e/lib/multiplayer.jar" />
+  </library>
+</eclipse-userlibraries>
+

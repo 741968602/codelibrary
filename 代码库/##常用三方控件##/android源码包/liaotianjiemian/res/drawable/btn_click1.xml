@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="false"><shape android:shape="rectangle" android:useLevel="false">
+
+            <!-- 填充 -->
+            <corners android:bottomLeftRadius="3px" android:bottomRightRadius="3px" android:topLeftRadius="3px" android:topRightRadius="3px" />
+            <!-- 定义内容离边界的距离。 -->
+            <padding android:bottom="0px" android:left="0px" android:right="0px" android:top="0px" />
+            <!-- 上 中下颜色的设置 -->
+            <gradient android:angle="90" android:endColor="@color/btn_nomal1" android:startColor="@color/btn_nomal1" android:type="linear" android:useLevel="false" />
+
+            <!-- 边框颜色、宽度 -->
+            <stroke android:width="1px" android:color="@color/border_color" />
+        </shape></item>
+    <item android:state_pressed="true"><shape android:shape="rectangle" android:useLevel="false">
+
+            <!-- 填充 -->
+            <corners android:bottomLeftRadius="3px" android:bottomRightRadius="3px" android:topLeftRadius="3px" android:topRightRadius="3px" />
+            <!-- 定义内容离边界的距离。 -->
+            <padding android:bottom="0px" android:left="0px" android:right="0px" android:top="0px" />
+            <!-- 上 中下颜色的设置 -->
+            <gradient android:angle="90" android:endColor="@color/btn_down1" android:startColor="@color/btn_down1" android:type="linear" android:useLevel="false" />
+
+            <!-- 边框颜色、宽度 -->
+            <stroke android:width="1px" android:color="@color/border_color" />
+        </shape></item>
+    <item><shape android:shape="rectangle" android:useLevel="false">
+
+            <!-- 填充 -->
+            <corners android:bottomLeftRadius="3px" android:bottomRightRadius="3px" android:topLeftRadius="3px" android:topRightRadius="3px" />
+            <!-- 定义内容离边界的距离。 -->
+            <padding android:bottom="0px" android:left="0px" android:right="0px" android:top="0px" />
+            <!-- 上 中下颜色的设置 -->
+            <gradient android:angle="90" android:endColor="@color/btn_nomal1" android:startColor="@color/btn_nomal1" android:type="linear" android:useLevel="false" />
+
+            <!-- 边框颜色、宽度 -->
+            <stroke android:width="1px" android:color="@color/border_color" />
+        </shape></item>
+
+</selector>

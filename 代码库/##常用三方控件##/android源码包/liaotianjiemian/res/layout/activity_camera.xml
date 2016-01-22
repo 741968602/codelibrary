@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	 <RelativeLayout 
+        android:id="@+id/Top"
+		android:layout_width="fill_parent"
+		android:layout_height="45dp"
+		android:layout_alignParentTop="true"
+		android:background="@drawable/title_bar"
+		android:gravity="center_vertical"  > 
+  			<Button
+            android:id="@+id/btn_back_chat"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="返回"
+            android:textSize="14sp"
+            android:textColor="#fff"
+            android:onClick="btnClick"
+            android:background="@drawable/title_btn_back"
+		    />    
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="照片"
+        		android:layout_centerInParent="true"
+        		android:textSize="20sp"		
+				android:textColor="#ffffff" /> 
+			
+			    />      
+		</RelativeLayout>
+
+     <RelativeLayout
+         android:id="@+id/bottom"
+         android:layout_width="fill_parent"
+         android:layout_height="45dp"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:background="@drawable/title_bar"
+         android:gravity="center_vertical" >
+
+         <Button
+             android:id="@+id/cancel_camera"
+             android:layout_width="70dp"
+             android:layout_height="wrap_content"
+             android:layout_centerVertical="true"
+             android:background="@drawable/title_btn_right"
+             android:onClick="btnClick"
+             android:text="取消"
+             android:textColor="#fff"
+             android:textSize="14sp" />
+
+         
+
+         <Button
+             android:id="@+id/confirm_camera"
+             android:layout_width="67dp"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true"
+             android:layout_marginRight="5dp"
+             android:text="发送"
+             android:textSize="14sp"
+             android:textColor="@color/white"
+             android:background="@drawable/title_btn_right"
+             android:onClick="btnClick"
+              />
+     </RelativeLayout>
+
+     <ImageView
+         android:id="@+id/camera"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_above="@id/bottom"
+         android:layout_below="@id/Top" />
+
+</RelativeLayout>

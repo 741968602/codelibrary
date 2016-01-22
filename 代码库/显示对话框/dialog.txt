@@ -1,0 +1,25 @@
+AlertDialog.Builder builder = new AlertDialog.Builder(HistoryQueyActivity.this);
+					builder.setTitle("无法获取车牌信息");
+					builder.setMessage("网络不佳是否重新获取");
+					builder.setPositiveButton("是",
+							new android.content.DialogInterface.OnClickListener() {
+								@Override
+								public void onClick(DialogInterface dialog, int which) {
+			
+									
+								}
+							});
+					builder.setNegativeButton("否",
+							new android.content.DialogInterface.OnClickListener() {
+
+								@Override
+								public void onClick(DialogInterface dialog, int which) {
+
+									finish();
+
+								}
+							});
+					builder.setInverseBackgroundForced(false);// 设置对话框后面的窗体能否触摸
+					builder.setCancelable(false);// 点击对话框外不消失
+					AlertDialog alertDialog = builder.create();
+					alertDialog.show();

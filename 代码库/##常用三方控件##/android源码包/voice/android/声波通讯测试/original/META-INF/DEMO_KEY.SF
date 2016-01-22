@@ -1,0 +1,53 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: SHCGxzzEaMI6zkXjfCtYUEmyHUA=
+Created-By: 1.6.0_45 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: vG7aXxbToU/dMXGFiWYWY6zKLno=
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: HJWVdRCXqdgpLGGDT6Uzb5hkqQE=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: 0oRDYl4wUOm0bMq8eVLJG09zkTg=
+
+Name: assets/ijm_lib/x86/libexec.so
+SHA1-Digest: A/gI6bDEd/WJJ0Q0oJoQb9VFlC0=
+
+Name: assets/ijm_lib/x86/libexecmain.so
+SHA1-Digest: DLKAVO6KcI1AyDtZbDHR8c9tkoU=
+
+Name: assets/ijm_lib/armeabi/libexec.so
+SHA1-Digest: 3bYv5IUyvc4iamX3oGPH4cEAygo=
+
+Name: assets/ijm_lib/armeabi/libexecmain.so
+SHA1-Digest: dmUM1kxMyKRZSl+c92+DJSoMThk=
+
+Name: resources.arsc
+SHA1-Digest: biuaSGD2rpJOBufxOo052YpcRII=
+
+Name: classes.dex
+SHA1-Digest: Lc+hpHc/O0727KBWKpqHYWQGJq8=
+
+Name: META-INF/signed.bin
+SHA1-Digest: 1d+lpJxgszTpnX1rJstvYFAUgSE=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: 2UO3QTOJW0jA6L4fx4GV0P+TKag=
+
+Name: res/layout/main.xml
+SHA1-Digest: HErzBQZWg/i5LH6JkKyJPtuS4mI=
+
+Name: AndroidManifest.xml
+SHA1-Digest: FSZsKZvPySW54P6YO/FvvYFAJKI=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: 73TZoa+3ApYPkY+wbmr1XiAso58=
+
+Name: assets/ijiami.dat
+SHA1-Digest: QYxuzZETg5tirtjRLhnel0IsVZY=
+
+Name: META-INF/sdata.bin
+SHA1-Digest: kn4UREQVQltA5ERcRmphav/AD80=
+
+Name: META-INF/af.bin
+SHA1-Digest: YhxDsxrOANOtir+GfyF8/Jv52kQ=
+

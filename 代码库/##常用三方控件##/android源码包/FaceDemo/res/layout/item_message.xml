@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:background="@drawable/user_fragment_list_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <ImageView
+            android:id="@+id/item_message_iv_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dip"
+            android:src="@drawable/item_signature_iv_menu_defaul" />
+
+        <TextView
+            android:id="@+id/item_message_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dip"
+            android:text="2012-12-12 10:10:10"
+            android:textColor="#acabab" />
+
+        <ImageView
+            android:id="@+id/item_message_iv_vatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/item_message_tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_message_tv_nickname"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="10dip"
+            android:layout_toLeftOf="@+id/item_message_iv_menu"
+            android:layout_toRightOf="@+id/item_message_iv_vatar"
+            android:maxLines="2"
+            android:singleLine="true"
+            android:text="测试测试测试测试测试"
+            android:textColor="#504f4f"
+            android:textSize="14dip" />
+
+        <TextView
+            android:id="@+id/item_message_tv_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/item_message_tv_content"
+            android:layout_alignParentTop="true"
+            android:text="猫儿公主"
+            android:textColor="#333333"
+            android:textSize="16dip" />
+    </RelativeLayout>
+
+</LinearLayout>

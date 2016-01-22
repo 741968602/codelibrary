@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/background_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip">
+        <Button android:id="@id/startReg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开始识别" />
+        <Button android:id="@id/stopReg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="停止识别" />
+        <TextView android:id="@id/regtext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="50.0dip">
+        <Button android:id="@id/startPlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开始播放" />
+        <Button android:id="@id/stopPlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="停止播放" />
+        <TextView android:id="@id/playText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="50.0dip">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="播放内容：" />
+        <EditText android:layout_gravity="left|center" android:id="@id/toPlayText" android:layout_width="214.0dip" android:layout_height="wrap_content" android:singleLine="true" android:selectAllOnFocus="true" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

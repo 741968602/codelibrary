@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="ic_launcher" id="0x7f020000" />
+    <public type="layout" name="main" id="0x7f030000" />
+    <public type="string" name="app_name" id="0x7f040000" />
+    <public type="id" name="startReg" id="0x7f050000" />
+    <public type="id" name="stopReg" id="0x7f050001" />
+    <public type="id" name="regtext" id="0x7f050002" />
+    <public type="id" name="startPlay" id="0x7f050003" />
+    <public type="id" name="stopPlay" id="0x7f050004" />
+    <public type="id" name="playText" id="0x7f050005" />
+    <public type="id" name="toPlayText" id="0x7f050006" />
+</resources>

@@ -1,0 +1,74 @@
+-ignorewarnings
+
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+-libraryjars libs/Android_Map_V2.5.0.jar 
+-libraryjars libs/Android_Location_V1.3.0.jar
+-libraryjars libs/android-support-v4.jar
+-libraryjars libs/commons-codec-1.3.jar
+-libraryjars libs/commons-httpclient-3.1.jar
+-libraryjars libs/commons-logging-1.1.jar
+-libraryjars libs/dom4j-1.6.1.jar
+-libraryjars libs/jpush-sdk-release1.7.3.jar
+-libraryjars libs/json-lib-2.4-jdk15.jar
+-libraryjars libs/ksoap2-android-assembly-2.6.4-jar-with-dependencies.jar
+-libraryjars libs/XLCommon.jar
+-libraryjars libs/armeabi/libamapv304.so
+-libraryjars libs/armeabi/libamapv304ex.so
+-libraryjars libs/armeabi/libjpush173.so
+-libraryjars libs/alipaysdk.jar
+-libraryjars libs/alipaysecsdk.jar
+-libraryjars libs/alipayutdid.jar
+
+
+-keep public class * extends android.app.Fragment  
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.preference.Preference
+-keep public class * extends android.support.v4.**
+-keep class org.apache.** {*;}
+-keep class com.amap.api.**  {*;}      
+-keep class com.autonavi.**  {*;}
+-keep class com.a.a.**  {*;}
+-keep class org.xmlpull.** {*;}
+
+#支付宝
+-keep class com.alipay.android.app.IAlixPay{*;}
+-keep class com.alipay.android.app.IAlixPay$Stub{*;}
+-keep class com.alipay.android.app.IRemoteServiceCallback{*;}
+-keep class com.alipay.android.app.IRemoteServiceCallback$Stub{*;}
+-keep class com.alipay.sdk.app.PayTask{ public *;}
+-keep class com.alipay.sdk.app.AuthTask{ public *;}
+-keep class com.alipay.mobilesecuritysdk.*
+-keep class com.ut.*
+
+-keep public class com.android.vending.licensing.ILicensingService
+
+
+#-keepattributes *Annotation*
+#-keep public class com.google.vending.licensing.ILicensingService
+#-keep public class com.android.vending.licensing.ILicensingService
+

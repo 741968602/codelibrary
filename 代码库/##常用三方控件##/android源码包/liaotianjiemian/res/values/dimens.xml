@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="activity_main_tab_title_height">45dp</dimen>
+    <dimen name="activity_main_bottom_bar">55dp</dimen>
+
+    
+    <dimen name="activity_btn_reg_height_login_and_register">20dp</dimen>
+    <dimen name="activity_btn_height_login_and_register">40dp</dimen>
+    
+    <dimen name="activity_btn_reg_width_login_and_register">45dp</dimen>
+    
+    <dimen name="activity_img_hight_login_and_register">40dp</dimen>
+    <dimen name="activity_img_widht_login_and_register">20dp</dimen>
+    <dimen name="activity_img_hight_login">100dp</dimen>
+
+    <dimen name="activity_main_working4.0_layout_height">90dp</dimen>
+    <dimen name="activity_main_team4.0_layout_height">55dp</dimen>
+    
+    <dimen name="activity_chatmain_maxems4.0">9dp</dimen>
+
+    <dimen name="activity_margin3_4.0">3dp</dimen>
+    <dimen name="activity_margin5_4.0">5dp</dimen>
+    <dimen name="activity_margin8_4.0">8dp</dimen>
+    <dimen name="activity_margin10_4.0">10dp</dimen>
+    <dimen name="activity_margin15_4.0">15dp</dimen>
+    <dimen name="activity_margin20_4.0">20dp</dimen>
+    <dimen name="activity_margin30_4.0">30dp</dimen>
+    
+    <dimen name="activity_padding3_4.0">1dp</dimen>
+    <dimen name="activity_padding5_4.0">5dp</dimen>
+    <dimen name="activity_padding8_4.0">8dp</dimen>
+    <dimen name="activity_padding10_4.0">10dp</dimen>
+    <dimen name="activity_padding15_4.0">15dp</dimen>
+    <dimen name="activity_padding20_4.0">20dp</dimen>
+    
+    <dimen name="activity_Textsize10_4.0">10sp</dimen>
+    <dimen name="activity_Textsize12_4.0">12sp</dimen>
+    <dimen name="activity_Textsize15_4.0">15sp</dimen>
+    <dimen name="activity_Textsize20_4.0">20sp</dimen>
+</resources>

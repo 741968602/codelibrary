@@ -1,0 +1,21 @@
+1.布局
+<com.miaotech.health.widget.FlowLayout
+android:id="@+id/id_flowlayout_know2"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="10dp"
+android:padding="10dp"/>
+2.数据    
+public static String[] t_mVals = new String[]//身体部位
+            {"皮肤"， "膀胱", "扁桃体"};   
+ 
+3.加载自定义的布局文件
+ LayoutInflater mInflater = LayoutInflater.from(context);
+        for (int i = 0; i < mVals.length; i++) {
+            final TextView tv = (TextView) mInflater.inflate(layout,
+                    mFlowLayout, false);
+            tv.setText(mVals[i]);
+            tv.setTextColor(tvcolord);
+            tv.setBackgroundResource(tvbgcolord);
+            mFlowLayout.addView(tv);
+        }

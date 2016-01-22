@@ -1,0 +1,36 @@
+   /**
+     * 显示POPWIN
+     */
+    private void showpopwin() {
+
+        // 定义 popupWindow
+        View contentView = LayoutInflater.from(getActivity()).inflate(R.layout.pop_list,
+                null);
+        popwindow.setWidth(ViewGroup.LayoutParams.WRAP_CONTENT); // 设置宽度
+        popwindow.setHeight(ViewGroup.LayoutParams.WRAP_CONTENT);
+        ; // 设置popWin 高度
+        popwindow.setContentView(contentView); // 为popWindow填充内容
+        popwindow.setFocusable(true);
+        popwindow.setOutsideTouchable(true); // 点击popWin 以处的区域，自动关闭
+        ColorDrawable dw = new ColorDrawable(0x00000000);
+        WindowManager.LayoutParams lp=getActivity().getWindow().getAttributes();
+        lp.alpha = 0.8f;
+        getActivity().getWindow().setAttributes(lp);
+        popwindow.setBackgroundDrawable(dw);
+        popwindow.showAsDropDown(essay_pop, 0, 0);// 设置 弹出窗口，显示的位置
+        popwindow.update();
+        popwindow.setOnDismissListener(new PopupWindow.OnDismissListener() {
+            @Override
+            public void onDismiss() {
+                WindowManager.LayoutParams lp=getActivity().getWindow().getAttributes();
+                lp.alpha = 1f;
+                getActivity().getWindow().setAttributes(lp);
+            }
+
+            });
+        LinearLayout pop_collect_layout=(LinearLayout)contentView.findViewById(R.id.pop_collect_layout);
+        pop_collect_layout.setOnClickListener(this);
+        LinearLayout pop_share_layout=(LinearLayout)contentView.findViewById(R.id.pop_share_layout);
+        pop_share_layout.setOnClickListener(this);
+
+    }

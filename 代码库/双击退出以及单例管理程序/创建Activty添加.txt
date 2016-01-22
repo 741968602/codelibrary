@@ -1,0 +1,1 @@
+  ExitApplication.getInstance().addActivity(this);// 添加到应用界面队列用于统一退出

@@ -1,0 +1,7 @@
+arm平台一般只需要解码端吧，编码端一般来自android平台或者iphone平台，真正需要时再找我吧。
+解码端的示例代码在windows文件夹下，windows文件夹下的示例代码是可跨平台的。
+
+
+
+详情可查看：http://blog.csdn.net/softlgh
+作者: 夜行侠 QQ:3116009971 邮件：3116009971@qq.com

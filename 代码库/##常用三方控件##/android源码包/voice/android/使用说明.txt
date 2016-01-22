@@ -1,0 +1,7 @@
+声波通讯测试.apk为我编译的apk，voiceDemoWithNoise.jar为java版的编码和解码库。encoderTest工程为相应的解码、解码示例代码，也就是声波通讯测试.apk的源代码。但voiceDemoWithNoise.jar解码库没有降噪处理，错误率比正式版高。
+
+
+
+
+详情可查看：http://blog.csdn.net/softlgh
+作者: 夜行侠 QQ:3116009971 邮件：3116009971@qq.com

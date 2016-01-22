@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="startReg">false</item>
+    <item type="id" name="stopReg">false</item>
+    <item type="id" name="regtext">false</item>
+    <item type="id" name="startPlay">false</item>
+    <item type="id" name="stopPlay">false</item>
+    <item type="id" name="playText">false</item>
+    <item type="id" name="toPlayText">false</item>
+</resources>

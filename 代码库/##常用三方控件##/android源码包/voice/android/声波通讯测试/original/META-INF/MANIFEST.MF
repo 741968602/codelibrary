@@ -1,0 +1,51 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_45 (Sun Microsystems Inc.)
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: UCzYT6RE8m1+z99KNVBkhnl38jY=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: RQ09RDJf3yWYEKYOavo2ED4Yaz0=
+
+Name: assets/ijm_lib/x86/libexec.so
+SHA1-Digest: sGvnQmxLZmh+U4k1L4UdzCJClMQ=
+
+Name: assets/ijm_lib/x86/libexecmain.so
+SHA1-Digest: 6/B4bBce9XxTk6BE1JejjVeiPTQ=
+
+Name: assets/ijm_lib/armeabi/libexec.so
+SHA1-Digest: gJ50x4+KdIYJM2PQ2lf2B2FW+MM=
+
+Name: assets/ijm_lib/armeabi/libexecmain.so
+SHA1-Digest: 9Ejg1MqI0gs0osoqvkPvvAmT5Kc=
+
+Name: resources.arsc
+SHA1-Digest: /XEriehRNIlJOMBvMMiUJUfOMVE=
+
+Name: classes.dex
+SHA1-Digest: k58nszaWHTiSUaX0jriw4wNvh4g=
+
+Name: META-INF/signed.bin
+SHA1-Digest: WjKwECni5dnfwJ8j+mYxkR0sokA=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: CepliFtAgOUV73Bk6BbHeZHAdXs=
+
+Name: res/layout/main.xml
+SHA1-Digest: t9hiT6W2xJD681Ys3I1qDMiDAKQ=
+
+Name: AndroidManifest.xml
+SHA1-Digest: YgMxG5+CBGOEpBJ1JtjyFG/tvac=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: I3MP0NXnINH3Gb4a/IxI+nMF2mw=
+
+Name: assets/ijiami.dat
+SHA1-Digest: IiYZlKE1Q3Zltnt069Eb3ruRO3E=
+
+Name: META-INF/af.bin
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: META-INF/sdata.bin
+SHA1-Digest: JDnzmEjFKZc6yjSP+4h6uXjRo8Q=
+

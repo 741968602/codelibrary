@@ -1,0 +1,157 @@
+ /**
+     * 解析XML
+     *
+     * @param strXml
+     * @return
+     */
+
+    public void parseXML(String strXml) {
+
+        String str = null;
+        try {
+            XmlPullParserFactory parserFactory = XmlPullParserFactory
+                    .newInstance();
+            XmlPullParser parser = parserFactory.newPullParser();
+            parser.setInput(new StringReader(strXml));
+            int eventType = parser.next();
+
+            while (eventType != XmlPullParser.END_DOCUMENT) {
+                if (eventType == XmlPullParser.START_TAG) {
+                    if ("subtitle".equals(parser.getName())) {
+                        addSubtitle(parser);
+                    } else if ("text".equals(parser.getName())) {
+                        addText(parser);
+                    } else if ("image".equals(parser.getName())) {
+                        addImage(parser);
+                    } else if ("title".equals(parser.getName())) {
+                        addTitleText(parser);
+                    }
+
+                }
+                eventType = parser.next();
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+       // return str;
+    }
+
+    public Bitmap getBitmap(String imgBase64Str) {
+        try {
+            byte[] bitmapArray;
+            bitmapArray = Base64.decode(imgBase64Str, Base64.DEFAULT);
+            return BitmapFactory.decodeByteArray(bitmapArray, 0,
+                    bitmapArray.length);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+
+    }
+
+    /**
+     * 文章动态添加标题
+     *
+     * @throws IOException
+     * @throws XmlPullParserException
+     */
+    private void addTitleText(XmlPullParser parser) throws XmlPullParserException, IOException {
+
+        String srcStr = parser.nextText();
+        Log.i("parseXMLPic--srcStr==", "parseXMLPic--srcStr=="
+                + srcStr);
+
+        if (!"".equals(srcStr)) {
+            strings.add(srcStr);
+            LayoutInflater mInflater = LayoutInflater
+                    .from(getActivity());
+
+            TextView tv = (TextView) mInflater.inflate(
+                    R.layout.addtitle_tv, layout, false);
+
+            tv.setText(srcStr);
+            layout.addView(tv);
+        }
+
+
+    }
+
+    /**
+     * 文章动态图片标题
+     *
+     * @throws IOException
+     * @throws XmlPullParserException
+     */
+    private void addImage(XmlPullParser parser) throws XmlPullParserException, IOException {
+
+        String srcStr = parser.nextText();
+        Log.i("parseXMLPic--srcStr==", "parseXMLPic--srcStr=="
+                + srcStr);
+
+        if (!"".equals(srcStr)) {
+            LayoutInflater mInflater = LayoutInflater
+                    .from(getActivity());
+
+            ImageView tv = (ImageView) mInflater.inflate(
+                    R.layout.addimage_im, layout, false);
+
+            tv.setImageBitmap(getBitmap(srcStr));
+            layout.addView(tv);
+
+            strings.add(srcStr);
+        }
+
+    }
+
+    /**
+     * 文章动态添加小标题
+     *
+     * @throws IOException
+     * @throws XmlPullParserException
+     */
+    private void addSubtitle(XmlPullParser parser) throws XmlPullParserException, IOException {
+
+        String srcStr = parser.nextText();
+        Log.i("parseXMLPic--srcStr==", "parseXMLPic--srcStr=="
+                + srcStr);
+
+        if (!"".equals(srcStr)) {
+            strings.add(srcStr);
+            LayoutInflater mInflater = LayoutInflater
+                    .from(getActivity());
+
+            TextView tv = (TextView) mInflater.inflate(
+                    R.layout.addsubtitle_tv, layout, false);
+
+            tv.setText(srcStr);
+            layout.addView(tv);
+        }
+
+    }
+
+    /**
+     * 文章动态添加正文
+     *
+     * @throws IOException
+     * @throws XmlPullParserException
+     */
+    private void addText(XmlPullParser parser) throws XmlPullParserException, IOException {
+
+        String srcStr = parser.nextText();
+        Log.i("parseXMLPic--srcStr==", "parseXMLPic--srcStr=="
+                + srcStr);
+
+        if (!"".equals(srcStr)) {
+            strings.add(srcStr);
+            LayoutInflater mInflater = LayoutInflater
+                    .from(getActivity());
+
+            TextView tv = (TextView) mInflater.inflate(
+                    R.layout.addtext_tv, layout, false);
+
+            tv.setText(srcStr);
+            layout.addView(tv);
+        }
+
+    }

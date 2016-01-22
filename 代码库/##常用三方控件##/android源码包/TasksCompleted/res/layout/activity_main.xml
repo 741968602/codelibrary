@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:tc="http://schemas.android.com/apk/res/com.snailws.taskscompleted"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <include layout="@layout/header_common" />
+
+    <com.snailws.taskscompleted.activity.TasksCompletedView
+        android:id="@+id/tasks_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tc:radius="100dip"
+        tc:strokeWidth="20dip"
+        tc:circleColor="@color/circle_color"
+        tc:ringColor="@color/ring_color" />
+
+</LinearLayout>

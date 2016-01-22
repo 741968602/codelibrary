@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical" >
+<RelativeLayout 
+        android:id="@+id/rl_layout"
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/activity_main_tab_title_height"
+		android:background="@color/black_top"
+		android:layout_alignParentTop="true"
+		android:gravity="center_vertical"  > 
+  			<ImageButton
+	            android:id="@+id/location_file_btn_back"
+	            android:layout_width="@dimen/activity_btn_height_login_and_register"
+	            android:layout_height="fill_parent"
+	            android:layout_centerVertical="true"
+	            android:background="@drawable/btn_click_goback"
+	            android:src="@drawable/goback_left"
+	            android:onClick="btnClick"
+		    />    
+      		<TextView
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="文件选择"
+        		android:layout_centerInParent="true"
+        		android:textSize="@dimen/activity_Textsize20_4.0"		
+				android:textColor="#ffffff" /> 
+			
+        <Button 
+            android:id="@+id/btnParent"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/btn_click1"
+       		android:textColor="@color/login_btn_text_color"
+            android:text="上一级"/>
+		</RelativeLayout>
+   
+
+    <TextView
+        android:id="@+id/tvpath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black20"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:text="文件路径"
+         />
+
+
+	<ListView 
+	    android:id="@+id/listView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"></ListView>
+    
+
+</LinearLayout>
